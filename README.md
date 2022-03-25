@@ -2,7 +2,8 @@
 Script for Windows PowerShell that will verify the recipient's PGP public key and encrypt a string using the recipient's PGP public key, AES256, and ZLib.  
   
 ## Installing BouncyCastle.NetFramework
-This script uses **[BouncyCastle.NetFramework](https://www.nuget.org/packages/BouncyCastle.NetFramework/)** *(also [bc-chsarp](https://github.com/bcgit/bc-csharp))*
+This script uses **[BouncyCastle.NetFramework](https://www.nuget.org/packages/BouncyCastle.NetFramework/)** *(also [bc-chsarp](https://github.com/bcgit/bc-csharp))*.  
+  
 The PowerShell snippet below will
    1. Register the **NuGet** package source *(even if you already have it)*
    2. Install the **BouncyCastle.NetFramework** package
