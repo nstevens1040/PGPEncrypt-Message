@@ -20,7 +20,6 @@ Add-Type -Path $dll
 ```  
 ## Usage
 ```
-
 NAME
     PGPEncrypt-Message
     
