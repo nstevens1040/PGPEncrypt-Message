@@ -1,5 +1,5 @@
 # PGPEncrypt-Message
-Script for Windows PowerShell that will verify the recipient's PGP public key and encrypt a string using the recipient's PGP public key, AES256, and ZLib.  
+Script for Windows PowerShell that will encrypt a string using the recipient's PGP public key, AES256, and ZLib.  
   
 ## Installing BouncyCastle.NetFramework
 This script uses **[BouncyCastle.NetFramework](https://www.nuget.org/packages/BouncyCastle.NetFramework/)** *(also [bc-chsarp](https://github.com/bcgit/bc-csharp))*.  
