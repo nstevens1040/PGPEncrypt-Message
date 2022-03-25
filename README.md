@@ -10,6 +10,8 @@ The first time you run **PGPEncrypt-Message** it will install BouncyCastle.NetFr
 ```ps1
 [System.Net.ServicePointManager]::SecurityProtocol = [System.Net.SecurityProtocolType]::Tls12
 iex (irm https://raw.githubusercontent.com/nstevens1040/PGPEncrypt-Message/main/PGPEncrypt-Message.ps1)
+```  
+## Usage
 ```
 NAME
     PGPEncrypt-Message
