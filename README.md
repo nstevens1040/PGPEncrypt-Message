@@ -18,4 +18,53 @@ Unregister-PackageSource -Name $name
 $dll = [IO.FileInfo]::New((get-package -Name BouncyCastle.NetFramework | % source)).Directory.EnumerateFiles("*.dll",[System.IO.SearchOption]::AllDirectories)[0].FullName
 Add-Type -Path $dll
 ```  
+## Usage
+```
 
+NAME
+    PGPEncrypt-Message
+    
+SYNTAX
+    PGPEncrypt-Message [-recipient_public_key] <string> [-message] <string>  [<CommonParameters>]
+    
+    
+PARAMETERS
+    -message <string>
+        
+        Required?                    true
+        Position?                    1
+        Accept pipeline input?       false
+        Parameter set name           (All)
+        Aliases                      None
+        Dynamic?                     false
+        
+    -recipient_public_key <string>
+        
+        Required?                    true
+        Position?                    0
+        Accept pipeline input?       false
+        Parameter set name           (All)
+        Aliases                      None
+        Dynamic?                     false
+        
+    <CommonParameters>
+        This cmdlet supports the common parameters: Verbose, Debug,
+        ErrorAction, ErrorVariable, WarningAction, WarningVariable,
+        OutBuffer, PipelineVariable, and OutVariable. For more information, see 
+        about_CommonParameters (http://go.microsoft.com/fwlink/?LinkID=113216). 
+    
+    
+INPUTS
+    None
+    
+    
+OUTPUTS
+    System.Object
+    
+ALIASES
+    None
+    
+
+REMARKS
+    None
+```
