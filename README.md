@@ -107,7 +107,7 @@ TQ3F4IeyTG08x1ByCm9juj/i7Es1P+XhLAsYDcF8QTW7qBWLS/i+yw==
 
 ```
 **Output**
-```ps1
+```
 -----BEGIN PGP MESSAGE-----
 Version: BCPG C# v1.8.10.0
 
